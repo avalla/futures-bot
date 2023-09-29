@@ -1,0 +1,23 @@
+{
+  "defaults": {
+    "leverage": 5,
+    "cost": 100,
+    "side": "SHORT"
+  },
+  "main": {
+    "stopLoss": 0.15,
+    "takeProfit": 0.5
+  },
+  "orders": [
+    { "stopLoss": 0.15, "takeProfit": 0.5, "multiplier": 2 },
+    { "stopLoss": 0.15, "takeProfit": 0.5, "multiplier": 4 },
+    { "stopLoss": 0.15, "takeProfit": 0.25, "multiplier": 8 },
+    { "stopLoss": 0.15, "takeProfit": 0.25, "multiplier": 16 },
+    { "stopLoss": 0.15, "takeProfit": 0.2, "multiplier": 32 },
+    { "stopLoss": 0.15, "takeProfit": 0.19, "multiplier": 64 },
+    { "stopLoss": 0.15, "takeProfit": 0.18, "multiplier": 128 },
+    { "stopLoss": 0.15, "takeProfit": 0.17, "multiplier": 256 },
+    { "stopLoss": 0.15, "takeProfit": 0.16, "multiplier": 512 },
+    { "stopLoss": 0.15, "takeProfit": 0.15, "multiplier": 1028 }
+  ]
+}
